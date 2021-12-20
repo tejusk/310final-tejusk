@@ -61,13 +61,6 @@ def get_photo_ids(query, n=100):
         return None
     return result
 
-# Returns info for a particular photo corresponding to the given ID as a JSON
-def get_photo_info(photo_id):
-    unsplash_data = safe_getPhoto(photo_id)
-    if len(unsplash_data) == 0:
-        return None
-    return unsplash_data
-
 class UnsplashPhoto():
     # Represents a photo from Unsplash
     def __init__(self, photo_dict):
@@ -76,8 +69,6 @@ class UnsplashPhoto():
         self.description = photo_dict['description']
         self.likes = int(photo_dict['likes'])
         self.downloads = int(photo_dict['downloads'])
-        self.color = photo_dict['color']
-        self.location = photo_dict['location']
         self.url = photo_dict['urls']['raw']
         self.url_thumb = photo_dict['urls']['thumb']
         self.userid = photo_dict['user']['id']

@@ -1,7 +1,4 @@
 import urllib.request, urllib.error, urllib.parse, json
-
-#THIS ONE WORKS! Use as final code.
-
 # Authentication
 client_id = "EAK6JKrKKJS4OtcGeyrkPZx1s69wQdlxonotqs-fWgM"
 client_secret = "zYr7lACVzUtci8JUpHV5EKlSq-M-lx-6zZBpfcxN4-U"

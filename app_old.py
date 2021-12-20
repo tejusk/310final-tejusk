@@ -86,8 +86,13 @@ if __name__ == '__main__':
     query = input("Enter what kind of photo you're looking for: ")
     print(query)
     query_str = query
+    # get photo IDs for 100 photos matching the query
     id_list = get_photo_ids(query_str, 100)
+
+    # get photo info for every photo ID in the list of IDs
     photo_obj_list = [get_photo_info(x) for x in id_list]
+
+    # convert each photo into a FlickrPhoto object
     result_list = [FlickrPhoto(x) for x in photo_obj_list]
 
     views_sorted = sorted(result_list, key=lambda x: x.num_views, reverse=True)

@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93c582c2-108f-450e-a585-08807adf62b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app_final.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unsplash_key.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unsplash_photos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_old.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flickr_photos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
-    </list>
+    <list default="true" id="93c582c2-108f-450e-a585-08807adf62b7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +180,7 @@
       <updated>1639722248715</updated>
       <workItem from="1639722262890" duration="3177000" />
       <workItem from="1639728956882" duration="4433000" />
-      <workItem from="1639901950215" duration="13414000" />
+      <workItem from="1639901950215" duration="13924000" />
     </task>
     <servers />
   </component>
@@ -199,8 +191,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/310final_tejusk$app_final.coverage" NAME="app_final Coverage Results" MODIFIED="1639989960694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/310final_tejusk$310final_tejusk.coverage" NAME="310final-tejusk Coverage Results" MODIFIED="1639725320670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/310final_tejusk$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1639988107912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/310final_tejusk$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1639989951701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/310final_tejusk$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1639739064975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/310final_tejusk$Flask__test2_py_.coverage" NAME="Flask (test2.py) Coverage Results" MODIFIED="1639983308233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/310final_tejusk$hw7.coverage" NAME="hw7 Coverage Results" MODIFIED="1639725432942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../hw7-tejusk" />
